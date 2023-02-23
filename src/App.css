@@ -1,0 +1,52 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: aqua;
+}
+.calc{
+  width: 320px;
+  margin: 100px auto 100px auto;
+}
+.btn{
+  padding: 15px;
+  height: 70px;
+  width: 71px;
+  font-size: 25px;
+  font-weight: 800;
+  border: 2px solid black;
+}
+.btn-class{
+  /* height: 300px; */
+  width:290px;
+  border: 3px solid black;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  gap: 2px;
+}
+.display-screen{
+  border: 2px solid black;
+  display: flex;
+  width: 290px;
+}
+input[type="text"]{
+  height: 45px;
+  font-weight: 800;
+  font-size: 40px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.btn-input{
+  width: 250px;
+}
+.clearbtn{
+  height: 45px;
+  width: 50px;
+}
+#clear{
+  background-color: red;
+  padding: 3px;
+  font-size: 27px;
+}
+#equal{
+  background-color: blue;
+}
